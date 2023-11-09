@@ -60,6 +60,7 @@ export default function Home() {
                                  * Comment the following line in:
                                  * jsonSchema(schema),
                                  */
+                                jsonSchema(schema),
                             ]}
                             onChange={onChange}
                             height='100vh'

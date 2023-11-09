@@ -1012,10 +1012,10 @@ clsx@^1.2.1:
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
-codemirror-json-schema@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/codemirror-json-schema/-/codemirror-json-schema-0.5.0.tgz#24c3dcc19d62fa25fa6994049cdcc23ca6c38b53"
-  integrity sha512-6aL8+3nixl4irz0nRSMbTf5jim0qKpZoMzSrKY16lodA7+HHp+1PPMgvtMr6sJ141fmNJbFVkzv/aQ5G3ROtkg==
+codemirror-json-schema@^0.4.4:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/codemirror-json-schema/-/codemirror-json-schema-0.4.5.tgz#6e895ec6aad797b53a7290eaf5d9f83d2f585c55"
+  integrity sha512-yzmqLyMWdo0Bfb75/6znW17stYlxnPrM6IEeD1SfsMl7oYumB01eFOGAYFGLZVNgfQnRdvymfpnCDbK635vcWw==
   dependencies:
     "@changesets/changelog-github" "^0.4.8"
     "@sagold/json-pointer" "^5.1.1"
