@@ -50,3 +50,4 @@ terraform.lock*
 /cypress/downloads/
 /cypress/videos/
 /public/docs/
+.idea/sonarlint

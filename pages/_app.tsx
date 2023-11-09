@@ -22,8 +22,8 @@ const MyApp: React.FunctionComponent<MyAppProps> = (props) => {
     return (
         <>
             <Head>
-                <title>Bauder Service Requests</title>
-                <meta name='description' content='Bauder Service Requests' />
+                <title>Index</title>
+                <meta name='description' content='Index' />
                 <link rel='icon' href={'/favicon.ico'} />
             </Head>
             <CacheProvider value={emotionCache}>
