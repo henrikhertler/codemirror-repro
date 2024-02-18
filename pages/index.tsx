@@ -2,7 +2,6 @@ import React, { useCallback, useState } from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import CodeMirror, { EditorView } from '@uiw/react-codemirror';
 import { dracula } from '@uiw/codemirror-theme-dracula';
-import { json } from '@codemirror/lang-json';
 import { bracketMatching } from '@codemirror/language';
 import { lintGutter } from '@codemirror/lint';
 import { jsonSchema } from 'codemirror-json-schema';
@@ -11,8 +10,8 @@ import { JSONSchema7 } from 'json-schema';
 export default function Home() {
     const jsonTemplate = `{
   "title": {
-    "en": "Title",
-  },
+    "en": "Title"
+  }
 }`;
     const [jsonFile, setJsonFile] = useState<string>(jsonTemplate);
 
@@ -52,10 +51,10 @@ export default function Home() {
                             theme={dracula}
                             indentWithTab
                             extensions={[
-                                json(),
                                 EditorView.lineWrapping,
                                 bracketMatching(),
                                 lintGutter(),
+                                jsonSchema(schema),
                                 /**
                                  * Comment the following line in:
                                  * jsonSchema(schema),
